@@ -3,7 +3,7 @@
 ### 1. Purpose: 
 * Build Real-time Sentiment Engine
 * Build Streaming Data Pipeline by integrating `Twitter Streaming API` with `Kafka` and `Spark Streaming`
-* Using NLP libraries `TextBlob` and understanding the sentiment that people have towards that thing at the moment
+* Using NLP libraries `TextBlob` and understanding the sentiment that people have towards the chosen keywords at the moment
 
 ### 2. Apache Kafka Quick Start
 
