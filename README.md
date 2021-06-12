@@ -5,7 +5,11 @@
 * Build Streaming Data Pipeline by integrating `Twitter Streaming API` with `Kafka` and `Spark Streaming`
 * Using NLP libraries `TextBlob` and understanding the sentiment that people have towards the chosen keywords at the moment
 
-### 2. Apache Kafka Quick Start
+
+### 2. Streaming Data Pipeline
+
+
+### 3. Apache Kafka Quick Start
 
 STEP1: Launch Zookeeper
 ```shell
