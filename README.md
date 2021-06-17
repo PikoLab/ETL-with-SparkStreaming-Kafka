@@ -7,8 +7,7 @@
 
 
 ### 2. Streaming Data Pipeline
-
-
+![image](https://github.com/PikoLab/ETL-with-SparkStreaming-Kafka/blob/main/Streaming-Data-Pipeline.jpg)
 
 ### 3. Install Libraries
 ```shell
