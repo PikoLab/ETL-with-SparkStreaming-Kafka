@@ -21,7 +21,7 @@ $ pip install tweet-preprocessor
 ### 4. Twitter Streaming API
 
 * Apply for Twitter Developer Account : https://developer.twitter.com/en/portal/projects-and-apps
-* Doc[Version-3.10.0] : https://docs.tweepy.org/en/v3.10.0/streaming_how_to.html
+* Tweepy Doc[Version-3.10.0] : https://docs.tweepy.org/en/v3.10.0/streaming_how_to.html
 
 ```text
 Step 0: Authentication Info
