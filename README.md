@@ -32,4 +32,10 @@ bin/kafka-console-producer.sh --broker-list localhost:9092 --topic twitter_strea
 bin/kafka-console-consumer.sh --zookeeper zookeeper:2181 --topic twitter_stream
 ```
 
+### 4. spark-submit
+```shell
+$ spark-submit --master spakr://host:port --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.4.5 twitter_sparkstreaming.py
+```
+
+
 
