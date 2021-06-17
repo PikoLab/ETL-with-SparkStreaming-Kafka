@@ -9,7 +9,27 @@
 ### 2. Streaming Data Pipeline
 
 
-### 3. Apache Kafka Quick Start
+
+### 3. Install Libraries
+```shell
+$ pip install tweepy
+$ pip install kafka-python
+$ pip install textblob
+$ pip install tweet-preprocessor
+```
+
+### 4. Twitter Streaming API
+
+* Apply for Twitter Developer Account : https://developer.twitter.com/en/portal/projects-and-apps
+* Doc[Version-3.10.0] : https://docs.tweepy.org/en/v3.10.0/streaming_how_to.html
+
+```text
+Step 0: Authentication Info
+Step 1: Creating a StreamListener
+Step 2: Creating a Stream
+Step 3: Starting a Stream
+```
+### 5. Apache Kafka Quick Start
 
 STEP1: Launch Zookeeper
 ```shell
@@ -32,7 +52,7 @@ bin/kafka-console-producer.sh --broker-list localhost:9092 --topic twitter_strea
 bin/kafka-console-consumer.sh --zookeeper zookeeper:2181 --topic twitter_stream
 ```
 
-### 4. spark-submit
+### 6. spark-submit
 ```shell
 $ spark-submit --master spakr://host:port --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.4.5 twitter_sparkstreaming.py
 ```
